@@ -1,0 +1,14 @@
+name = "p_subset_np"
+defaultTargets = ["PSubsetNP"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "2424bb480c590237ffbb2cc831ae4cb8977e045a"
+
+[[lean_lib]]
+name = "PSubsetNP"
